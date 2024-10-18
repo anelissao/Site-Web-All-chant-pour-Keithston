@@ -1,0 +1,359 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+header {
+    background-image: url("header-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 2em;
+    padding-top: 0.9em;
+    padding-left: 5em;
+    height: 100vh;
+}
+
+header div:first-child {
+    display: flex;
+    margin-left: 3em;
+}
+
+header li:first-child {
+    color: #E9BD8C;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type:none;
+    margin-left: 7em;
+}
+
+header li {
+    margin: 2em;
+}
+
+header div:last-child {
+    margin: 3em;
+}
+
+header h2 {
+    margin-top: 5.5em;
+    margin-bottom: 1em;
+    color: #E9BD8C;
+}
+
+header h1 {
+    font-family: "Sansita Swashed", system-ui;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+header span, #banner span{
+    display: block;
+}
+
+header button {
+    background-color: #933C24;
+    width: 12.25em;
+    height: 4.063em;
+    color: #F5F5F5;
+    border: none;
+    border-radius: 1em;
+    font-weight: bolder;
+    margin-right: 0.5em;
+}
+
+header a:last-child {
+    color: #E9BD8C;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+#top-products h1:first-child {
+    text-align: center;
+    margin: 3em;
+    font-family: "Sansita Swashed", system-ui;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+.Product {
+    box-sizing: border-box;
+    width: 360px;
+    height: 411px;
+    background-image: url("Rectangle\ 69.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 360px;
+    height: 411px;
+    padding: 0 2em;
+}
+
+.Product div{
+    display: flex;
+    justify-content: space-between;
+}
+/*
+.Product div:last-child {
+    position: absolute;
+    bottom: 1px;
+}
+
+.Product div:first-child {
+    position: absolute;
+    bottom: 40px;
+}
+*/
+
+.Product div:first-child {
+    margin-top: 70%;
+}
+
+
+.Product img:first-child {
+    display: block;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+}
+
+.excla {
+    width: 39px;
+    height: 39px;
+}
+
+#Products-container {
+    display: flex;
+    justify-content: center;
+    padding: 3em;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.Product button {
+    width: 71px;
+    height: 49px;
+    background: #933C24;
+    color: #F5F5F5;
+    border: none;
+    border-radius: 5px;
+}
+
+.title {
+    color: black;
+    text-align: center;
+    margin-top: 2em;
+    font-family: "Sansita Swashed", system-ui;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+#banner {
+    background-image: url("Rectangle\ 45.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 2em 0;
+}
+
+#banner h1, #about-us h1{
+    color: #933C24;
+    font-family: "Sansita Swashed", system-ui;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+    margin-bottom: 1.5em;
+}
+
+#banner h4, #about-us h4 {
+    color: #5D5D5D;
+    margin-bottom: 1.5em;
+}
+
+#about-us h4 {
+    color: #B9B9B9;
+}
+
+#banner button, #about-us button {
+    width: 202px;
+    height: 63px;
+    background: #933C24;
+    color: #F5F5F5;
+    font-weight: bolder;
+    border: none;
+    border-radius: 5px;
+    padding: 1.438em 2.188em;
+}
+
+#explore {
+    padding: 2.5em 4em;
+}
+
+#explore ul{
+    color: #5D5D5D;
+    display: flex;
+    justify-content: center;
+    list-style-type:none;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+#explore li {
+    margin-right: 3.5em;
+    font-weight: bolder;
+}
+
+#explore img {
+    margin-top: 1em;
+}
+
+#images {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 1.5em;
+}
+
+#images img {
+    width: 360px;
+    height: 350px;
+    border: none;
+}
+
+#about-us {
+    background-image: url("aboutus.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 2em 0;
+    margin-top: 2em;
+}
+
+#treats {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: black;
+    margin-top: 3.5em;
+}
+
+.treat div{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.2em 1.5em;
+}
+
+.treat img {
+    width: 360px;
+    height: 356px;
+}
+
+footer {
+    background-image: url("footer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 0;
+    padding: 1em 2em;
+    margin-top: 3em;
+}
+
+#footer-head img:first-child {
+    margin-right: 0;
+    margin-left: 1.2em;
+}
+
+#footer-head {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5em 2em;
+    color: #E9BD8C;
+    margin-bottom: 0;
+}
+
+#footer-head div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 5em;
+}
+
+#footer-head div img{
+    width: 42px;
+    height: 42px;
+    margin-left: 1.5em;
+}
+
+hr {
+    color: #E9BD8C;
+    margin-top: 0;
+    margin: 0 2em 2em 2em;
+}
+
+#middle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3em;
+}
+
+#middle h2{
+    color: #E9BD8C;
+}
+
+#middle ul {
+    list-style-type:none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+#middle li {
+    margin-bottom: 1em;
+    font-weight: bolder;
+}
+
+.news{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.news img {
+    width: 100px;
+    height: 67px;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+.news h6 {
+    color: #E9BD8C;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.news h5 {
+    margin-top: 0;
+}
+
+#left-half {
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-about {
+    margin-right: 15em;
+}
+
+p:last-child {
+    color: #737373;
+    text-align: center;
+    margin: 3em 0;
+}
