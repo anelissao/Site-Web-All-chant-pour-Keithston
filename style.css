@@ -4,6 +4,10 @@ body {
     color: white;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 header {
     background-image: url("header-img.png");
     background-repeat: no-repeat;
@@ -125,6 +129,14 @@ header a:last-child {
     margin-top: 1em;
 }
 
+.Product img {
+    max-height: 245px;
+}
+
+.Product:last-child img{
+    margin-top: 0;
+}
+
 .excla {
     width: 39px;
     height: 39px;
@@ -210,6 +222,11 @@ header a:last-child {
 #explore li {
     margin-right: 3.5em;
     font-weight: bolder;
+}
+
+#explore li:first-child {
+    border-bottom: 4px solid #933C24;
+    border-radius: 1px;
 }
 
 #explore img {
